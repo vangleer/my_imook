@@ -1,0 +1,345 @@
+/*头部 start*/
+header {
+  width: 20.7rem;
+  height: 5.4rem;
+  padding: 0.75rem 0.5rem;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+header .header-top .logo {
+  float: left;
+  margin-top: 0.25rem;
+}
+header .header-top .logo img {
+  width: 4.2rem;
+}
+header .header-top .search {
+  float: right;
+  margin-right: 1rem;
+  margin-top: 0.2rem;
+}
+header .header-top .search a i {
+  font-size: 1.5rem;
+}
+header .header-top .download-app {
+  float: right;
+  width: 7.5rem;
+  height: 1.5rem;
+  background-color: #fef1f1;
+  border-radius: 1.3rem;
+}
+header .header-top .download-app .download {
+  border-right: 1px solid #fcc3c3;
+}
+header .header-top .download-app a {
+  font-size: 0.7rem;
+  display: inline-block;
+  padding: 0rem 0.6rem;
+  margin-top: 0.4rem;
+  color: #f01414;
+  font-weight: 700;
+}
+header .header-nav {
+  padding: 0px 0.5rem;
+  width: 100%;
+  margin-top: 0.5rem;
+}
+header .header-nav ul {
+  width: 27rem;
+  position: relative;
+}
+header .header-nav ul li {
+  float: left;
+  padding-right: 1.2rem;
+}
+header .header-nav ul li a {
+  color: #71777d;
+  font-size: 0.75rem;
+  font-weight: 700;
+}
+header .header-nav ul li.active a {
+  color: #f01414;
+}
+/*头部 end*/
+.common-head {
+  padding-top: 1rem;
+  background: url(../images/bg1.png) no-repeat;
+  background-size: contain;
+}
+.common-head h3 {
+  float: left;
+}
+.common-head a {
+  font-size: 0.6rem;
+  color: #b7bbbf;
+  float: right;
+}
+/*轮播图 start*/
+.lunbotu {
+  width: 20.7rem;
+}
+.lunbotu .swiper-container .swiper-pagination-bullet {
+  background: rgba(255, 255, 255, 0.3);
+  opacity: 1;
+}
+.lunbotu .swiper-container .swiper-pagination-bullet-active {
+  background: #ffffff;
+}
+.lunbotu .swiper-container .swiper-wrapper .swiper-slide img {
+  width: 100%;
+  height: 8rem;
+  border-radius: 1rem;
+}
+/*轮播图 end*/
+/*实战 start*/
+.shizhan {
+  width: 100%;
+  padding: 0.5rem;
+}
+.shizhan .shizhan-head {
+  padding-top: 1rem;
+  background: url(../images/bg1.png) no-repeat;
+  background-size: contain;
+}
+.shizhan .shizhan-head h3 {
+  float: left;
+}
+.shizhan .shizhan-head a {
+  font-size: 0.6rem;
+  color: #b7bbbf;
+  float: right;
+}
+.shizhan .shizhan-content {
+  width: 100%;
+}
+.shizhan .shizhan-content ul {
+  margin-top: 0.8rem;
+}
+.shizhan .shizhan-content ul li {
+  margin-bottom: 0.8rem;
+  height: 4rem;
+}
+.shizhan .shizhan-content ul li .load-more {
+  margin-left: 6.8rem;
+}
+.shizhan .shizhan-content ul li a {
+  color: deepskyblue;
+}
+.shizhan .shizhan-content ul li .shizhan-info {
+  width: 8.2rem;
+  margin-left: 0.6rem;
+  line-height: 1.2rem;
+}
+.shizhan .shizhan-content ul li .shizhan-info h4 {
+  color: #2b333b;
+  font-size: 0.9rem;
+}
+.shizhan .shizhan-content ul li .shizhan-info span {
+  color: #71777d;
+  font-size: 0.7rem;
+}
+.shizhan .shizhan-content ul li .price {
+  margin-left: 0.4rem;
+  width: 4rem;
+}
+.shizhan .shizhan-content ul li .price span {
+  display: block;
+  font-size: 0.6rem;
+  color: #f01414;
+  margin-top: 0.5rem;
+  text-align: center;
+}
+.shizhan .shizhan-content ul li .price .now-price {
+  width: 3.5rem;
+  height: 1.5rem;
+  border-radius: 16px;
+  background-color: #f3f3f3;
+  line-height: 1.5rem;
+}
+.shizhan .shizhan-content ul li .price .old-price {
+  text-decoration: line-through;
+}
+.shizhan .shizhan-content ul li a {
+  float: left;
+}
+.shizhan .shizhan-content ul li a img {
+  width: 6rem;
+  border-radius: 8px;
+}
+/*实战 end*/
+.jiuyeban {
+  padding: 0.5rem;
+}
+.jiuyeban .jiuyeban-head {
+  padding-top: 1rem;
+  background: url(../images/bg2.png) no-repeat;
+  background-size: contain;
+}
+.jiuyeban .jiuyeban-head h3 {
+  float: left;
+}
+.jiuyeban .jiuyeban-head a {
+  font-size: 0.6rem;
+  color: #b7bbbf;
+  float: left;
+  margin-left: 1rem;
+  padding-top: 0.3rem;
+}
+.jiuyeban .jiuyeban-content {
+  margin-top: 1rem;
+}
+.jiuyeban .jiuyeban-content .item {
+  width: 47%;
+  margin-right: 0.5rem;
+  height: 4rem;
+  float: left;
+  margin-top: 0.5rem;
+}
+.jiuyeban .jiuyeban-content .item a img {
+  width: 100%;
+  height: 4.5rem;
+}
+.private {
+  width: 20.7rem;
+  padding: 0.5rem;
+}
+.private .private-head {
+  padding-top: 0.8rem;
+  background: url(../images/bg4.png) no-repeat;
+  background-size: contain;
+}
+.private .private-head h3 {
+  float: left;
+}
+.private .private-head a {
+  font-size: 0.6rem;
+  color: #b7bbbf;
+  float: right;
+}
+.private .private-content {
+  width: 100%;
+  margin-top: 1rem;
+}
+.private .private-content .swiper-container {
+  height: 7rem;
+}
+.private .private-content .swiper-container .swiper-pagination-bullet-active {
+  width: 1rem;
+  border-radius: 0.3rem;
+}
+.private .private-content .swiper-container .swiper-wrapper .swiper-slide img {
+  width: 4rem;
+  height: 5rem;
+  border-radius: 0.3rem;
+  float: left;
+}
+.private .private-content .swiper-container .swiper-wrapper .swiper-slide .private-info {
+  line-height: 1.2rem;
+  margin-left: 0.6rem;
+  float: left;
+}
+.private .private-content .swiper-container .swiper-wrapper .swiper-slide .private-info .info-title {
+  font-size: 1rem;
+  color: #2b333b;
+}
+.private .private-content .swiper-container .swiper-wrapper .swiper-slide .private-info .info-author {
+  font-size: 0.75rem;
+  color: #2b333b;
+}
+.private .private-content .swiper-container .swiper-wrapper .swiper-slide .private-info .info-info {
+  font-size: 0.6rem;
+  color: #b7bbbf;
+}
+.private .private-content .swiper-container .swiper-wrapper .swiper-slide .private-info .price span {
+  float: left;
+  font-size: 0.9rem;
+  color: #606265;
+  padding: 0rem 0.4rem;
+}
+.private .private-content .swiper-container .swiper-wrapper .swiper-slide .private-info .price .price-desc {
+  width: 4rem;
+  height: 1.4rem;
+  background-color: #3377ff;
+  border-radius: 0.7rem;
+  font-size: 0.6rem;
+  color: #fff;
+  text-align: center;
+  line-height: 1.4rem;
+}
+.private .private-content .swiper-container .swiper-wrapper .swiper-slide .private-info .price .now-price {
+  color: #3377ff;
+}
+.new-class {
+  padding: 0.5rem;
+}
+.new-class .new-head {
+  padding-top: 1rem;
+  background: url(../images/bg.png) no-repeat;
+  background-size: contain;
+}
+.new-class .new-content ul {
+  margin-top: 0.8rem;
+}
+.new-class .new-content ul li.active .price .now-price {
+  color: #f01414;
+}
+.new-class .new-content ul li {
+  margin-bottom: 0.8rem;
+  height: 4rem;
+}
+.new-class .new-content ul li .load-more {
+  margin-left: 6.8rem;
+}
+.new-class .new-content ul li a {
+  color: deepskyblue;
+}
+.new-class .new-content ul li .shizhan-info {
+  width: 8.2rem;
+  margin-left: 0.6rem;
+  line-height: 1.2rem;
+}
+.new-class .new-content ul li .shizhan-info h4 {
+  color: #2b333b;
+  font-size: 0.9rem;
+}
+.new-class .new-content ul li .shizhan-info span {
+  color: #71777d;
+  font-size: 0.7rem;
+}
+.new-class .new-content ul li .price {
+  margin-left: 0.4rem;
+  width: 4rem;
+}
+.new-class .new-content ul li .price span {
+  display: block;
+  font-size: 0.6rem;
+  color: #f01414;
+  margin-top: 0.5rem;
+}
+.new-class .new-content ul li .price .now-price {
+  width: 3.5rem;
+  height: 1.5rem;
+  border-radius: 16px;
+  background-color: #f3f3f3;
+  line-height: 1.5rem;
+  margin-left: 0.5rem;
+  color: #71777d;
+  text-align: center;
+}
+.new-class .new-content ul li a {
+  float: left;
+}
+.new-class .new-content ul li a img {
+  width: 6rem;
+  border-radius: 8px;
+}
+.no-more {
+  margin-top: 1.2rem;
+  padding-top: 0.5rem;
+  width: 100%;
+  text-align: center;
+}
+.no-more span {
+  font-size: 1.2rem;
+  color: #b7bbbf;
+}

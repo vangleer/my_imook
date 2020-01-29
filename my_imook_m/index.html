@@ -1,0 +1,1011 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>慕课网-程序员的梦工厂</title>
+		<meta name="Description" content="慕课网（IMOOC）是IT技能学习平台。慕课网(IMOOC)提供了丰富的移动端开发、php开发、web前端、android开发以及html5等视频教程资源公开课。并且富有交互性及趣味性，你还可以和朋友一起编程。" />
+		<!-- icon头像 -->
+	 	<link rel="shortcut icon" href="favicon.ico"  type="image/x-icon"/> 
+	 	<!--基本的样式-->
+	 	<link rel="stylesheet" href="css/base.css" />
+	 	<!--引入图标样式-->
+	 	<link rel="stylesheet" href="css/iconfont.css" />
+	 	<!--映入首页样式-->
+	 	<link rel="stylesheet" href="css/index.css" />
+	</head>
+	<body>
+		<!--头部结构开始-->
+		<div id="header" class="clearfix">
+			<div class="logo fl">
+				<img src="images/logo.png" alt="" />
+			</div>
+			<ul class="header-nav fl">
+				<li><a href="javascript:;">免费课程</a></li>
+				<li><a href="javascript:;">实战课程</a></li>
+				<li><a href="javascript:;">就业班</a></li>
+				<li><a href="javascript:;">专栏</a></li>
+				<li><a href="javascript:;">猿问</a></li>
+				<li><a href="javascript:;">手记</a></li>
+			</ul>
+			<div class="search fl">
+				<input  type="text" placeholder="请输入关键字..." />
+				<div class="tishi">
+					<a href="javascript:;">vue</a>
+					<a href="javascript:;">react</a>
+				</div>
+				<button><i class="iconfont icon-search"></i></button>
+			</div>
+			<ul class="personal fr">
+				<li class="download-app">
+					<a href="javascript:;">下载App</a>
+					<div class="download-content">
+						<h3>慕课网App - 随时随地学编程</h3>
+						<img src="images/erweima.jpg" class="fl" width="110" height="120" alt="" />
+						<div class="fr download-method">
+							<button><i class="iconfont icon-pingguo"></i>App store下载</button>
+							<button><i class="iconfont icon-Android"></i>Android 下载</button>
+							<span>烧苗下载慕课网App</span>
+						</div>
+					</div>
+				</li>
+				<li class="cart"><a href="javascript:;"><i class="iconfont icon-icon-test3"></i>购物车</a>
+					<div class="my-cart">
+						<div class="cart-top">
+							<h4 class="fl">我的购物车</h4>
+							<span class="fr">已加入0门课程</span>
+						</div>
+						<div class="cart-body">
+							<i class="iconfont icon-icon-test3"></i>
+							
+							<span>购物车里空空如也</span>
+							<p>快去这里选购你中意的课程</p>
+							<a href="javascript:;">实战课程</a>
+							<a href="javascript:;">就业班</a>
+						</div>
+						<div class="cart-bottom">
+							<span class="my-order fl">我的订单中心</span>
+							<button class="go-cart fr">去购物车</button>
+						</div>
+					</div>
+				</li>
+				<li><a class="sign-in" href="javascript:;">登录</a>/<a class="sign-up" href="javascript:;">注册</a></li>
+				
+			</ul>
+		</div>
+		
+		<!--头部结构结束-->
+		<!--登录框开始-->
+		<div class="mask"></div>
+		<div class="login">
+			<div class="login-top">
+				<span class="active">登录<span class="xian"></span></span>
+				<span class="isShowRegister">注册<span class="xian"></span></span>
+				<a href="javascript:;" class="fr login-close"><i class="iconfont icon-baseline-close-px"></i></a>
+				
+			</div>
+			<div class="login-body">
+				<input class="phone" type="text" placeholder="q请输入登录手机号/邮箱" />
+				<p></p>
+				<input class="pwd" type="passowrd" placeholder="请输入密码" />
+				<p></p>
+				<span class="look"><i class="iconfont icon-icon-test"></i></span>
+				<div class="login-tips">
+					<div class="tips-left fl">
+						<input type="checkbox"/><span>7天内自动登录</span>
+					</div>
+					<div class="tips-right fr">
+						<a href="javascript:;">找回密码</a>
+						<span>|</span>
+						<a href="javascript:;">无法登录</a>
+					</div>
+				</div>
+				<button class="login-btn">登录</button>
+			</div>
+			<div class="login-bottom">
+				<a class="login-phone fl">手机短信登录</a>
+				<div class="login-meiti fr">
+					<a href="javascript:;"><i class="iconfont icon-weibo"></i></a>
+					<a href="javascript:;"><i class="iconfont icon-weixin"></i></a>
+					<a href="javascript:;"><i class="iconfont icon-QQ"></i></a>
+				</div>
+			</div>
+		</div>
+		<!--登录框开始-->
+		
+		<!--固定右边导航开始-->
+		<div class="fiexd-nav">
+			<div>
+				<a href="javascript:;"> <span>意见反馈</span> <i class="iconfont icon-Opinion"></i> </a>
+			</div>
+			<div>
+				<a href="javascript:;"> <span>帮助中心</span> <i class="iconfont icon-bangzhuzhongxin"></i> </a>
+			</div>
+			<div>
+				<a href="javascript:;"><span>App下载</span> <i class="iconfont icon-xianxingtubiao_huaban"></i>  <img src="images/erweima.jpg" alt="" /></a>
+			</div>
+			<div>
+				<a href="javascript:;"> <span>官方微信</span><i class="iconfont icon-weixin"></i> <img src="images/erweima.jpg" alt="" /> </a>
+			</div>
+			<div>
+				<a href="#"> <span>返回顶部</span> <i class="iconfont icon-icon-test4"></i> </a>
+			</div>
+		</div>
+		<!--固定右边导航结束-->
+		<!--注册开始-->
+		<div class="register">
+			<div class="register-top">
+				<span class="isShowLogin">登录<span class="xian"></span></span>
+				<span class="active">注册<span class="xian"></span></span>
+				<a href="javascript:;" class="fr register-close"><i class="iconfont icon-baseline-close-px"></i></a>
+				
+			</div>
+			<div class="login-body">
+				<div class="tel-info">+86 <i class="iconfont icon-icon-test6"></i> </div>
+				<input class="register-phone" type="tel" placeholder="请输入手机号" />
+				<input type="passowrd" placeholder="请输入密码" />
+				<span class="look"><i class="iconfont icon-refresh"></i><a src="" alt="" />1234</a></span>
+				<div class="login-tips">
+					<div class="tips-left fl">
+						<input type="checkbox"/><span>同意</span>
+						<a href="javascript:;">《慕课网注册协议》</a>
+					</div>
+					
+				</div>
+				<button>注册</button>
+			</div>
+			<div class="login-bottom">
+				<a class="login-phone fl">手机短信登录</a>
+				<div class="login-meiti fr">
+					<a href="javascript:;"><i class="iconfont icon-weibo"></i></a>
+					<a href="javascript:;"><i class="iconfont icon-weixin"></i></a>
+					<a href="javascript:;"><i class="iconfont icon-QQ"></i></a>
+				</div>
+			</div>
+		</div>
+		<!--注册结束-->
+		<!--中间轮播图开始-->
+		<div class="w clearfix" id="lunbotu">
+			<div class="lunbotu-aside fl">
+				<div class="lunbotu-aside-box">
+					<div class="lunbotu-aside-box-top">
+						<h4>前沿技术</h4>
+						<div>
+							<span>微服务</span>
+							<span>区块链</span>
+							<span>以太坊</span>
+							<span>机器学习</span>
+							<span>深度学习</span>
+							<span>计算机视觉</span>
+							<span>自然语言处理</span>
+							<span>数据分析&挖掘</span>
+						</div>
+					</div>
+					<div class="lunbotu-aside-box-bottom">
+						<div class="item">
+							<img src="images/study1.png" alt="" />
+							<a href="javascript:;">前端0基础入门</a>	
+							<p><span>￥358 · 5步</span><span>/</span><span>28课 · <i class="iconfont icon-nickname"></i>52946</span></p>
+						</div>
+						<div class="item">
+							<img src="images/study1.png" alt="" />
+							<a href="javascript:;">前端0基础入门</a>	
+							<p><span>￥358 · 5步</span><span>/</span><span>28课 · <i class="iconfont icon-nickname"></i>52946</span></p>
+						</div>
+						<div class="item">
+							<img src="images/study1.png" alt="" />
+							<a href="javascript:;">前端0基础入门</a>	
+							<p><span>￥358 · 5步</span><span>/</span><span>28课 · <i class="iconfont icon-nickname"></i>52946</span></p>
+						</div>
+						<div class="item">
+							<img src="images/study1.png" alt="" />
+							<a href="javascript:;">前端0基础入门</a>	
+							<p><span>￥358 · 5步</span><span>/</span><span>28课 · <i class="iconfont icon-nickname"></i>52946</span></p>
+						</div>
+					</div>
+				</div>
+				<ul class="lunbotu-nav-list">
+					<li>
+						<a href="javascript:;">
+							<span>前沿 / 区块链 / 人工智能</span>
+							<i class="iconfont icon-icon-test7"></i>
+						</a>
+					</li>
+					<li>
+						<a href="javascript:;">
+							<span>前端 / 小程序 / JS</span>
+							<i class="iconfont icon-icon-test7"></i>
+						</a>
+					</li>
+					<li>
+						<a href="javascript:;">
+							<span>后端 / JAVA / Python</span>
+							<i class="iconfont icon-icon-test7"></i>
+						</a>
+					</li>
+					<li>
+						<a href="javascript:;">
+							<span>移动 / Android / iOS</span>
+							<i class="iconfont icon-icon-test7"></i>
+						</a>
+					</li>
+					<li>
+						<a href="javascript:;">
+							<span>云计算 / 大数据 / 容器</span>
+							<i class="iconfont icon-icon-test7"></i>
+						</a>
+					</li>
+					<li>
+						<a href="javascript:;">
+							<span>运维 / 测试 / 数据库</span>
+							<i class="iconfont icon-icon-test7"></i>
+						</a>
+					</li>
+					<li>
+						<a href="javascript:;">
+							<span>UI设计 / 3D动画 / 游戏</span>
+							<i class="iconfont icon-icon-test7"></i>
+						</a>
+					</li>
+				</ul>
+			</div>
+			<div class="lunbotu-main fr">
+				<ul class="banners">
+					<li><a href="javascript:;"><img src="images/banner1.jpg"/></a></li>
+					<li><a href="javascript:;"><img src="images/banner2.jpg"/></a></li>
+					<li><a href="javascript:;"><img src="images/banner3.jpg"/></a></li>
+					<li><a href="javascript:;"><img src="images/banner4.jpg"/></a></li>
+					<li><a href="javascript:;"><img src="images/banner5.jpg"/></a></li>
+				</ul>
+				<ul class="circles">
+					<li class="active"></li>
+					<li></li>
+					<li></li>
+					<li></li>
+					<li></li>
+				</ul>
+				<div class="arrows">
+					<a class="arr-left">
+						<i class="iconfont icon-icon-test5"></i>
+					</a>
+					<a class="arr-right">
+						<i class="iconfont icon-icon-test7"></i>
+					</a>
+				</div>
+			</div>
+		</div>
+		<!--中间轮播图结束-->
+		
+		<!--中间导航开始-->
+		<div id="big-nav" class="w clearfix">
+			<div class="nav-item clearfix">
+				<h3><span class="title">就业班</span><span class="info">零基础快速就业</span></h3>
+				<ul>
+					<li>
+						<a href="#">
+							<img src="images/icon1.png" alt="" />
+							<p class="title">Web前端攻城狮</p>
+							<p class="desc">没有基础也可以学好</p>
+						</a>
+					</li>
+					<li>
+						<a href="#">
+							<img src="images/icon2.png" alt="" />
+							<p class="title">PHP攻城狮</p>
+							<p class="desc">Web开发首选语言</p>
+						</a>
+					</li>
+					<li>
+						<a href="#">
+							<img src="images/icon3.png" alt="" />
+							<p class="title">Android攻城狮</p>
+							<p class="desc">移动市场份额第一</p>
+						</a>
+					</li>
+					<li>
+						<a href="#">
+							<img src="images/icon4.png" alt="" />
+							<p class="title">Python攻城狮</p>
+							<p class="desc">应用领域最广泛</p>
+						</a>
+					</li>
+					<li>
+						<a href="#">
+							<img src="images/icon5.png" alt="" />
+							<p class="title">Java攻城狮</p>
+							<p class="desc">综合就业排名第一</p>
+						</a>
+					</li>
+				</ul>
+			</div>
+			
+			<div class="nav-item">
+				<h3><span class="title">职场进阶</span><span class="info">1年以上开发经验系统成长</span></h3>
+				<div class="recomend clearfix">
+					<div></div>
+					<div></div>
+					<div></div>
+				</div>
+			</div>
+		</div>
+		<!--中间导航结束-->
+		
+		<!--新课上市开始-->
+		<div id="new-class" class="w new-class">
+			<span class="class-title">新上好课</span>
+			<ul class="class-list clearfix">
+				<li>
+					<a href="javascript:;">
+						<span class="icon-new">新课</span>
+						<span class="tips">
+							<span>java</span>
+							<span>机器学习</span>
+						</span>
+						<img src="images/new1.png" alt="" />
+						<h3>编程必备基础 大话HTTP协议</h3>
+					</a>
+					<div class="class-info clearfix">
+						<span>中级</span>
+						<span><i class="iconfont icon-nickname"></i> 256人</span>
+						<span class="dianping">12人评价</span>
+						<div class="dianping-box">
+							<div class="dianping-box-left">
+								综合评分 <span>10:00</span> 12人评价
+							</div>
+							<div class="dianping-box-right">
+								实用内容10:00
+								逻辑清晰10:00
+								通俗易懂10:00
+							</div>
+						</div>
+					</div>
+					<div class="class-price">
+						￥199.00 限时优惠
+					</div>
+				</li>
+				<li>
+					<a href="javascript:;">
+						<span class="tips">
+							<span>Spring</span>
+							<span>Mybatis</span>
+						</span>
+						<img src="images/new8.png" alt="" />
+						<h3>编程必备基础 大话HTTP协议</h3>
+					</a>
+					<div class="class-info clearfix">
+						<span>中级</span>
+						<span><i class="iconfont icon-nickname"></i> 256人</span>
+						<span class="dianping">12人评价</span>
+						<div class="dianping-box">
+							<div class="dianping-box-left">
+								综合评分 <span>10:00</span> 12人评价
+							</div>
+							<div class="dianping-box-right">
+								实用内容10:00
+								逻辑清晰10:00
+								通俗易懂10:00
+							</div>
+						</div>
+					</div>
+					<div class="class-price">
+						￥199.00 限时优惠
+					</div>
+				</li>
+				<li>
+					<a href="javascript:;">
+						<span class="icon-new">新课</span>
+						<span class="tips">
+							<span>前端</span>
+							<span>python</span>
+						</span>
+						<img src="images/new2.png" alt="" />
+						<h3>编程必备基础 大话HTTP协议</h3>
+					</a>
+					<div class="class-info clearfix">
+						<span>中级</span>
+						<span><i class="iconfont icon-nickname"></i> 256人</span>
+						<span class="dianping">12人评价</span>
+						<div class="dianping-box">
+							<div class="dianping-box-left">
+								综合评分 <span>10:00</span> 12人评价
+							</div>
+							<div class="dianping-box-right">
+								实用内容10:00
+								逻辑清晰10:00
+								通俗易懂10:00
+							</div>
+						</div>
+					</div>
+					<div class="class-price">
+						￥199.00 限时优惠
+					</div>
+				</li>
+				<li>
+					<a href="javascript:;">
+						<span class="tips">
+							<span>javascript</span>
+						</span>
+						<img src="images/new3.png" alt="" />
+						<h3>编程必备基础 大话HTTP协议</h3>
+					</a>
+					<div class="class-info clearfix">
+						<span>中级</span>
+						<span><i class="iconfont icon-nickname"></i> 256人</span>
+						<span class="dianping">12人评价</span>
+						<div class="dianping-box">
+							<div class="dianping-box-left">
+								综合评分 <span>10:00</span> 12人评价
+							</div>
+							<div class="dianping-box-right">
+								实用内容10:00
+								逻辑清晰10:00
+								通俗易懂10:00
+							</div>
+						</div>
+					</div>
+					<div class="class-price">
+						￥199.00 限时优惠
+					</div>
+				</li>
+				<li>
+					<a href="javascript:;">
+						<span class="tips">
+							<span>React</span>
+							<span>Less/Sass</span>
+						</span>
+						<span class="icon-new">新课</span>
+						<img src="images/new4.png" alt="" />
+						<h3>编程必备基础 大话HTTP协议</h3>
+					</a>
+					<div class="class-info clearfix">
+						<span>中级</span>
+						<span><i class="iconfont icon-nickname"></i> 256人</span>
+						<span class="dianping">12人评价</span>
+						<div class="dianping-box">
+							<div class="dianping-box-left">
+								综合评分 <span>10:00</span> 12人评价
+							</div>
+							<div class="dianping-box-right">
+								实用内容10:00
+								逻辑清晰10:00
+								通俗易懂10:00
+							</div>
+						</div>
+					</div>
+					<div class="class-price">
+						￥199.00 限时优惠
+					</div>
+				</li>
+				<li>
+					<a href="javascript:;">
+						<span class="tips">
+							<span>c++</span>
+						</span>
+						<img src="images/new5.jpg" alt="" />
+						<h3>编程必备基础 大话HTTP协议</h3>
+					</a>
+					<div class="class-info clearfix">
+						<span>中级</span>
+						<span><i class="iconfont icon-nickname"></i> 256人</span>
+						<span class="dianping">12人评价</span>
+						<div class="dianping-box">
+							<div class="dianping-box-left">
+								综合评分 <span>10:00</span> 12人评价
+							</div>
+							<div class="dianping-box-right">
+								实用内容10:00
+								逻辑清晰10:00
+								通俗易懂10:00
+							</div>
+						</div>
+					</div>
+					<div class="class-price">
+						￥199.00 限时优惠
+					</div>
+				</li>
+				<li>
+					<a href="javascript:;">
+						<span class="tips">
+							<span>Vue</span>
+							<span>Mui</span>
+						</span>
+						<span class="icon-new">新课</span>
+						<img src="images/new6.jpg" alt="" />
+						<h3>编程必备基础 大话HTTP协议</h3>
+					</a>
+					<div class="class-info clearfix">
+						<span>中级</span>
+						<span><i class="iconfont icon-nickname"></i> 256人</span>
+						<span class="dianping">12人评价</span>
+						<div class="dianping-box">
+							<div class="dianping-box-left">
+								综合评分 <span>10:00</span> 12人评价
+							</div>
+							<div class="dianping-box-right">
+								实用内容10:00
+								逻辑清晰10:00
+								通俗易懂10:00
+							</div>
+						</div>
+					</div>
+					<div class="class-price">
+						￥199.00 限时优惠
+					</div>
+				</li>
+				<li>
+					<a href="javascript:;">
+						<span class="tips">
+							<span>PHP</span>
+							<span>Mysql</span>
+						</span>
+						<img src="images/new7.png" alt="" />
+						<h3>编程必备基础 大话HTTP协议</h3>
+					</a>
+					<div class="class-info clearfix">
+						<span>中级</span>
+						<span><i class="iconfont icon-nickname"></i> 256人</span>
+						<span class="dianping">12人评价</span>
+						<div class="dianping-box">
+							<div class="dianping-box-left">
+								综合评分 <span>10:00</span> 12人评价
+							</div>
+							<div class="dianping-box-right">
+								实用内容10:00
+								逻辑清晰10:00
+								通俗易懂10:00
+							</div>
+						</div>
+					</div>
+					<div class="class-price">
+						￥199.00 限时优惠
+					</div>
+				</li>
+				
+			</ul>
+			
+		</div>
+		<!--新课上市结束-->
+		
+		<!--学习路线开始-->
+		<div id="study-path" class="w">
+			<div class="study-top clearfix">
+				<h3 class="fl">学习路线</h3>
+				<ul class="fl">
+					<li class="active"><a href="javascript:;">热门</a></li>
+					<li><a href="javascript:;">前端</a></li>
+					<li><a href="javascript:;">后端</a></li>
+					<li><a href="javascript:;">移动端</a></li>
+					<li><a href="javascript:;">计算机基础</a></li>
+					<li><a href="javascript:;">大数据测试</a></li>
+					<li><a href="javascript:;">人工智能</a></li>
+					<li><a href="javascript:;">测试</a></li>
+				</ul>
+			</div>
+			<div class="study-bottom">
+				<ul>
+					<li>
+						<img class="img-up" src="images/study1.png">
+						<div class="study-bottom-r">
+							<h4>Vue.js从入门到全栈开发</h4>
+							<p>优秀的前端工程师都要掌握一门后端语言，从vue到node，前后端通吃，提高前端工程师的竞争力。</p>
+							<div class="study-path-info">
+								<span>4步骤 · 5门课</span>
+								<span><i>★</i>11426人收藏</span>
+							</div>
+						</div>
+					</li>
+					<li>
+						<img class="img-up" src="images/study2.png">
+						<div class="study-bottom-r">
+							<h4>Vue.js从入门到全栈开发</h4>
+							<p>优秀的前端工程师都要掌握一门后端语言，从vue到node，前后端通吃，提高前端工程师的竞争力。</p>
+							<div class="study-path-info">
+								<span>4步骤 · 5门课</span>
+								<span><i>★</i>11426人收藏</span>
+							</div>
+						</div>
+					</li>
+					<li>
+						<img class="img-up" src="images/study3.png">
+						<div class="study-bottom-r">
+							<h4>Vue.js从入门到全栈开发</h4>
+							<p>优秀的前端工程师都要掌握一门后端语言，从vue到node，前后端通吃，提高前端工程师的竞争力。</p>
+							<div class="study-path-info">
+								<span>4步骤 · 5门课</span>
+								<span><i>★</i>11426人收藏</span>
+							</div>
+						</div>
+					</li>
+					<li>
+						<img class="img-up" src="images/study4.png">
+						<div class="study-bottom-r">
+							<h4>Vue.js从入门到全栈开发</h4>
+							<p>优秀的前端工程师都要掌握一门后端语言，从vue到node，前后端通吃，提高前端工程师的竞争力。</p>
+							<div class="study-path-info">
+								<span>4步骤 · 5门课</span>
+								<span><i>★</i>11426人收藏</span>
+							</div>
+						</div>
+					</li>
+					<li>
+						<img class="img-up" src="images/study5.png">
+						<div class="study-bottom-r">
+							<h4>Vue.js从入门到全栈开发</h4>
+							<p>优秀的前端工程师都要掌握一门后端语言，从vue到node，前后端通吃，提高前端工程师的竞争力。</p>
+							<div class="study-path-info">
+								<span>4步骤 · 5门课</span>
+								<span><i>★</i>11426人收藏</span>
+							</div>
+						</div>
+					</li>
+					<li>
+						<img class="img-up" src="images/study6.png">
+						<div class="study-bottom-r">
+							<h4>Vue.js从入门到全栈开发</h4>
+							<p>优秀的前端工程师都要掌握一门后端语言，从vue到node，前后端通吃，提高前端工程师的竞争力。</p>
+							<div class="study-path-info">
+								<span>4步骤 · 5门课</span>
+								<span><i>★</i>11426人收藏</span>
+							</div>
+						</div>
+					</li>
+				</ul>
+			</div>
+		</div>
+		<!--学习路线结束-->
+		
+		<!--热门课程开始-->
+		<div id="hot-class"  class="w new-class">
+			<span class="class-title ">热门课程</span>
+			
+			<ul class="class-list clearfix">
+				<li>
+					<a href="javascript:;">
+						<span class="icon-new">新课</span>
+						<span class="tips">
+							<span>java</span>
+							<span>机器学习</span>
+						</span>
+						<img src="images/new1.png" alt="" />
+						<h3>编程必备基础 大话HTTP协议</h3>
+					</a>
+					<div class="class-info clearfix">
+						<span>中级</span>
+						<span><i class="iconfont icon-nickname"></i> 256人</span>
+						<span class="dianping">12人评价</span>
+						<div class="dianping-box">
+							<div class="dianping-box-left">
+								综合评分 <span>10:00</span> 12人评价
+							</div>
+							<div class="dianping-box-right">
+								实用内容10:00
+								逻辑清晰10:00
+								通俗易懂10:00
+							</div>
+						</div>
+					</div>
+					<div class="class-price">
+						￥199.00 限时优惠
+					</div>
+				</li>
+				<li>
+					<a href="javascript:;">
+						<span class="tips">
+							<span>Spring</span>
+							<span>Mybatis</span>
+						</span>
+						<img src="images/new8.png" alt="" />
+						<h3>编程必备基础 大话HTTP协议</h3>
+					</a>
+					<div class="class-info clearfix">
+						<span>中级</span>
+						<span><i class="iconfont icon-nickname"></i> 256人</span>
+						<span class="dianping">12人评价</span>
+						<div class="dianping-box">
+							<div class="dianping-box-left">
+								综合评分 <span>10:00</span> 12人评价
+							</div>
+							<div class="dianping-box-right">
+								实用内容10:00
+								逻辑清晰10:00
+								通俗易懂10:00
+							</div>
+						</div>
+					</div>
+					<div class="class-price">
+						￥199.00 限时优惠
+					</div>
+				</li>
+				<li>
+					<a href="javascript:;">
+						<span class="icon-new">新课</span>
+						<span class="tips">
+							<span>前端</span>
+							<span>python</span>
+						</span>
+						<img src="images/new2.png" alt="" />
+						<h3>编程必备基础 大话HTTP协议</h3>
+					</a>
+					<div class="class-info clearfix">
+						<span>中级</span>
+						<span><i class="iconfont icon-nickname"></i> 256人</span>
+						<span class="dianping">12人评价</span>
+						<div class="dianping-box">
+							<div class="dianping-box-left">
+								综合评分 <span>10:00</span> 12人评价
+							</div>
+							<div class="dianping-box-right">
+								实用内容10:00
+								逻辑清晰10:00
+								通俗易懂10:00
+							</div>
+						</div>
+					</div>
+					<div class="class-price">
+						￥199.00 限时优惠
+					</div>
+				</li>
+				<li>
+					<a href="javascript:;">
+						<span class="tips">
+							<span>javascript</span>
+						</span>
+						<img src="images/new3.png" alt="" />
+						<h3>编程必备基础 大话HTTP协议</h3>
+					</a>
+					<div class="class-info clearfix">
+						<span>中级</span>
+						<span><i class="iconfont icon-nickname"></i> 256人</span>
+						<span class="dianping">12人评价</span>
+						<div class="dianping-box">
+							<div class="dianping-box-left">
+								综合评分 <span>10:00</span> 12人评价
+							</div>
+							<div class="dianping-box-right">
+								实用内容10:00
+								逻辑清晰10:00
+								通俗易懂10:00
+							</div>
+						</div>
+					</div>
+					<div class="class-price">
+						￥199.00 限时优惠
+					</div>
+				</li>
+				<li>
+					<a href="javascript:;">
+						<span class="tips">
+							<span>React</span>
+							<span>Less/Sass</span>
+						</span>
+						<span class="icon-new">新课</span>
+						<img src="images/new4.png" alt="" />
+						<h3>编程必备基础 大话HTTP协议</h3>
+					</a>
+					<div class="class-info clearfix">
+						<span>中级</span>
+						<span><i class="iconfont icon-nickname"></i> 256人</span>
+						<span class="dianping">12人评价</span>
+						<div class="dianping-box">
+							<div class="dianping-box-left">
+								综合评分 <span>10:00</span> 12人评价
+							</div>
+							<div class="dianping-box-right">
+								实用内容10:00
+								逻辑清晰10:00
+								通俗易懂10:00
+							</div>
+						</div>
+					</div>
+					<div class="class-price">
+						￥199.00 限时优惠
+					</div>
+				</li>
+				<li>
+					<a href="javascript:;">
+						<span class="tips">
+							<span>c++</span>
+						</span>
+						<img src="images/new5.jpg" alt="" />
+						<h3>编程必备基础 大话HTTP协议</h3>
+					</a>
+					<div class="class-info clearfix">
+						<span>中级</span>
+						<span><i class="iconfont icon-nickname"></i> 256人</span>
+						<span class="dianping">12人评价</span>
+						<div class="dianping-box">
+							<div class="dianping-box-left">
+								综合评分 <span>10:00</span> 12人评价
+							</div>
+							<div class="dianping-box-right">
+								实用内容10:00
+								逻辑清晰10:00
+								通俗易懂10:00
+							</div>
+						</div>
+					</div>
+					<div class="class-price">
+						￥199.00 限时优惠
+					</div>
+				</li>
+				<li>
+					<a href="javascript:;">
+						<span class="tips">
+							<span>Vue</span>
+							<span>Mui</span>
+						</span>
+						<span class="icon-new">新课</span>
+						<img src="images/new6.jpg" alt="" />
+						<h3>编程必备基础 大话HTTP协议</h3>
+					</a>
+					<div class="class-info clearfix">
+						<span>中级</span>
+						<span><i class="iconfont icon-nickname"></i> 256人</span>
+						<span class="dianping">12人评价</span>
+						<div class="dianping-box">
+							<div class="dianping-box-left">
+								综合评分 <span>10:00</span> 12人评价
+							</div>
+							<div class="dianping-box-right">
+								实用内容10:00
+								逻辑清晰10:00
+								通俗易懂10:00
+							</div>
+						</div>
+					</div>
+					<div class="class-price">
+						￥199.00 限时优惠
+					</div>
+				</li>
+				<li>
+					<a href="javascript:;">
+						<span class="tips">
+							<span>PHP</span>
+							<span>Mysql</span>
+						</span>
+						<img src="images/new7.png" alt="" />
+						<h3>编程必备基础 大话HTTP协议</h3>
+					</a>
+					<div class="class-info clearfix">
+						<span>中级</span>
+						<span><i class="iconfont icon-nickname"></i> 256人</span>
+						<span class="dianping">12人评价</span>
+						<div class="dianping-box">
+							<div class="dianping-box-left">
+								综合评分 <span>10:00</span> 12人评价
+							</div>
+							<div class="dianping-box-right">
+								实用内容10:00
+								逻辑清晰10:00
+								通俗易懂10:00
+							</div>
+						</div>
+					</div>
+					<div class="class-price">
+						￥199.00 限时优惠
+					</div>
+				</li>
+				
+			</ul>
+			
+		</div>
+		<!--热门课程介绍-->
+		
+		
+		<!--慕课专栏开始-->
+		<div class="private w">
+			<span>慕课专栏</span>
+			<ul class="clearfix">
+				<li>
+					<div class="img-box">
+						<img src="images/private1.jpg" alt="" />
+						<a class="img-read">试读</a>
+					</div>
+					<div class="info-box">
+						<h4>JavaScript 设计模式精讲</h4>
+						<p>共29节 · 1202人已购买</p>
+						<a href="javascript:;">SHERlocked93 / 开源社区活跃贡献者</a>
+						<span>456.00</span>
+					</div>
+				</li>
+				<li>
+					<div class="img-box">
+						<img src="images/private3.jpg" alt="" />
+						<a class="img-read">试读</a>
+					</div>
+					<div class="info-box">
+						<h4>JavaScript 设计模式精讲</h4>
+						<p>共29节 · 1202人已购买</p>
+						<a href="javascript:;">SHERlocked93 / 开源社区活跃贡献者</a>
+						<span>456.00</span>
+					</div>
+				</li>
+				<li>
+					<div class="img-box">
+						<img src="images/private2.jpg" alt="" />
+						<a class="img-read">试读</a>
+					</div>
+					<div class="info-box">
+						<h4>JavaScript 设计模式精讲</h4>
+						<p>共29节 · 1202人已购买</p>
+						<a href="javascript:;">SHERlocked93 / 开源社区活跃贡献者</a>
+						<span>456.00</span>
+					</div>
+				</li>
+				<li>
+					<div class="img-box">
+						<img src="images/private1.jpg" alt="" />
+						<a class="img-read">试读</a>
+					</div>
+					<div class="info-box">
+						<h4>JavaScript 设计模式精讲</h4>
+						<p>共29节 · 1202人已购买</p>
+						<a href="javascript:;">SHERlocked93 / 开源社区活跃贡献者</a>
+						<span>456.00</span>
+					</div>
+				</li>
+				<li>
+					<div class="img-box">
+						<img src="images/private3.jpg" alt="" />
+						<a class="img-read">试读</a>
+					</div>
+					<div class="info-box">
+						<h4>JavaScript 设计模式精讲</h4>
+						<p>共29节 · 1202人已购买</p>
+						<a href="javascript:;">SHERlocked93 / 开源社区活跃贡献者</a>
+						<span>456.00</span>
+					</div>
+				</li>
+				<li>
+					<div class="img-box">
+						<img src="images/private2.jpg" alt="" />
+						<a class="img-read">试读</a>
+					</div>
+					<div class="info-box">
+						<h4>JavaScript 设计模式精讲</h4>
+						<p>共29节 · 1202人已购买</p>
+						<a href="javascript:;">SHERlocked93 / 开源社区活跃贡献者</a>
+						<span>456.00</span>
+					</div>
+				</li>
+				
+			</ul>
+		</div>
+		<!--慕课专栏结束-->
+		
+		<!--底部样式开始-->
+		<div id="footer">
+			<div class="w">
+				<div class="footer-left fl">
+				<ul>
+					<li><a href="javascript:;">企业合作</a></li>
+					<li><a href="javascript:;">人才招聘</a></li>
+					<li><a href="javascript:;">联系我们</a></li>
+					<li><a href="javascript:;">讲师招募</a></li>
+					<li><a href="javascript:;">帮助中心</a></li>
+					<li><a href="javascript:;">意见反馈</a></li>
+					<li><a href="javascript:;">慕课大学</a></li>
+					<li><a href="javascript:;">代码托管</a></li>
+					<li><a href="javascript:;">友情链接</a></li>
+				</ul>
+				<p>© 2019 imooc.com  京ICP备 12003892号-11 北京奥鹏文化传媒有限公司 营业执照</p>
+			</div>
+			<div class="footer-right fr">
+				<a href="javascript:;">
+					<i class="iconfont icon-weixin"></i>
+					<span>官方公众号</span>
+				</a>
+				<a href="javascript:;">
+					<i class="iconfont icon-weibo"></i>
+					<span>官方微博</span>
+				</a>
+			</div>
+			</div>
+			
+		</div>
+		<!--底部样式结束-->
+		
+		<!--映入头部js-->
+		<script src="js/header.js"></script>
+	</body>
+</html>
+					
